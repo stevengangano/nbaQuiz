@@ -1,0 +1,97 @@
+
+.banner {
+	text-align: center;
+}
+
+.title {
+	font-family: 'Emblema One', cursive;
+}
+
+.background {
+  background-image: url("../img/nbaMap.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+}
+
+.scoreboard {
+	position: relative;
+	left: 530px;
+	text-align: center;
+    width: 200px;
+    height: 100px;
+}
+
+table, th, td {
+    border: 5px solid black;
+}
+
+.header {
+	font-family: 'Asap', sans-serif;
+}
+
+.correct {
+	color: green;
+}
+
+.incorrect {
+	color: red;
+}
+
+.buttons {
+	position: relative;
+	top: 25px;
+}
+
+.foot {
+	width: 100%;
+	height: 100px;
+}
+
+/*Media Queriescreen and (s*/
+
+@media (max-width: 1200px) {
+	.body {
+		width: 100%;
+	}
+	.scoreboard {
+		left: 40%;
+	}
+}
+
+@media (max-width: 800px) {
+	.scoreboard {
+		left: 35%;
+	}
+}
+
+@media (max-width: 600px) {
+	.scoreboard {
+		left: 35%;
+	}
+}
+
+@media (max-width: 500px) {
+	.scoreboard {
+		left: 30%;
+	}
+}
+
+@media (max-width: 400px) {
+	.scoreboard {
+		left: 24%;
+	}
+}
+
+@media (max-width: 350px) {
+	.scoreboard {
+		left: 22%;
+	}
+}
+
+@media (max-width: 300px) {
+	.scoreboard {
+		left: 18%;
+	}
+}

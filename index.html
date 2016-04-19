@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz application</title>
+
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSS -->
+	<link rel = "stylesheet" href="css/main.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!-- Google fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Emblema+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Asap:700' rel='stylesheet' type='text/css'>
+	
+</head>
+<body class='background'>
+
+  
+    	<h1 class ='title'> NBA Trivia</h1>
+
+
+         <table class='scoreboard'>
+            <tr>
+              <td colspan=2 class='score header'> Score </td>
+            </tr>
+            <tr>
+                <td class='header' src=''>Correct</td> 
+                <td class='header'>Incorrect</td>
+            </tr>
+            <tr>
+              <td id='correct' class='correct'>0</td>
+              <td id='incorrect' class='incorrect'>0</td>
+          </table>
+
+          <div class='border'>   
+            <div>
+              <h5 id="question0"></h5>
+              <input id="answer0">
+            </div>
+            <div>
+              <h5 id="question1"></h5>
+              <input id="answer1">
+            </div>
+            <div>
+              <h5 id="question2"></h5>
+              <input id="answer2">
+            </div>
+            <div>
+              <h5 id="question3"></h5>
+              <input id="answer3">
+            </div>
+            <div>
+              <h5 id="question4"></h5>
+              <input id="answer4">
+            </div>
+            <div>
+              <h5 id="question5"></h5>
+              <input id="answer5">
+            </div>
+    </div>      
+
+          <div class ='buttons'>
+            <button type="button" onclick="getInfo()" id="button" class="btn btn-primary btn-lg"> Submit </button>
+            <button type='button' onclick='clearButton()' class="btn btn-danger btn-lg"> Clear </button>
+          </div>
+
+        <footer class='foot'>
+        </footer>
+        
+
+
+
+<!-- Jquery -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Javascript -->
+ <script src="js/bootstrap.js"></script>
+ 
+<script type="text/javascript" src="js/main.js"></script> 
+
+</body>
+</html>
