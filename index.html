@@ -21,61 +21,57 @@
 </head>
 <body class='background'>
 
-  
-    	<h1 class ='title'> NBA Trivia</h1>
+<h1 class ='title'> NBA Trivia</h1>
 
+<!-- Scoreboard -->
+<table class='scoreboard'>
+    <tr>
+      <td colspan=2 class='score header'> Score </td>
+    </tr>
+    <tr>
+        <td class='header' src=''>Correct</td> 
+        <td class='header'>Incorrect</td>
+    </tr>
+    <tr>
+      <td id='correct' class='correct'>0</td>
+      <td id='incorrect' class='incorrect'>0</td>
+  </table>
 
-         <table class='scoreboard'>
-            <tr>
-              <td colspan=2 class='score header'> Score </td>
-            </tr>
-            <tr>
-                <td class='header' src=''>Correct</td> 
-                <td class='header'>Incorrect</td>
-            </tr>
-            <tr>
-              <td id='correct' class='correct'>0</td>
-              <td id='incorrect' class='incorrect'>0</td>
-          </table>
+<!-- Questions
+ -->  <div class='border'>   
+    <div>
+      <h5 id="question0"></h5>
+      <input id="answer0">
+    </div>
+    <div>
+      <h5 id="question1"></h5>
+      <input id="answer1">
+    </div>
+    <div>
+      <h5 id="question2"></h5>
+      <input id="answer2">
+    </div>
+    <div>
+      <h5 id="question3"></h5>
+      <input id="answer3">
+    </div>
+    <div>
+      <h5 id="question4"></h5>
+      <input id="answer4">
+    </div>
+    <div>
+      <h5 id="question5"></h5>
+      <input id="answer5">
+    </div>
+</div> 
+     
+<!-- Submit and Clear Buttons -->
+<div class ='buttons'>
+  <button type="button" onclick="getInfo()" id="button" class="btn btn-primary btn-lg"> Submit </button>
+  <button type='button' onclick='clearButton()' class="btn btn-danger btn-lg"> Clear </button>
+</div>
 
-          <div class='border'>   
-            <div>
-              <h5 id="question0"></h5>
-              <input id="answer0">
-            </div>
-            <div>
-              <h5 id="question1"></h5>
-              <input id="answer1">
-            </div>
-            <div>
-              <h5 id="question2"></h5>
-              <input id="answer2">
-            </div>
-            <div>
-              <h5 id="question3"></h5>
-              <input id="answer3">
-            </div>
-            <div>
-              <h5 id="question4"></h5>
-              <input id="answer4">
-            </div>
-            <div>
-              <h5 id="question5"></h5>
-              <input id="answer5">
-            </div>
-    </div>      
-
-          <div class ='buttons'>
-            <button type="button" onclick="getInfo()" id="button" class="btn btn-primary btn-lg"> Submit </button>
-            <button type='button' onclick='clearButton()' class="btn btn-danger btn-lg"> Clear </button>
-          </div>
-
-        <footer class='foot'>
-        </footer>
-        
-
-
-
+       
 <!-- Jquery -->
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 

@@ -32,7 +32,6 @@ for (var i = 0; i < sportsQuestions.length; i++) {
 }
 
 
-
 function getInfo () {
 	var correct = 0 // counter starts at 0
 	var incorrect = 0 // counter starts at 0
